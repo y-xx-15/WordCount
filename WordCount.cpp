@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
         inputFile = argv[2];
     }
 
-    // 检查看是否有参数，并确定统计类型
+    // 根据参数确定统计类型
     char statType = 'c'; // 默认统计字符数
     if (argc > 1 && strcmp(argv[1], "-w") == 0) {
         statType = 'w';
